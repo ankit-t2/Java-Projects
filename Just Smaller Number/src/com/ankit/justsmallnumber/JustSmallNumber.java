@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.TreeSet;
 
 public class JustSmallNumber {
 
@@ -11,7 +12,7 @@ public class JustSmallNumber {
 	static BufferedReader br;
 	static int arraySize;
 	static int numLine;
-	static ArrayList<Integer> aList = new ArrayList<Integer>();
+	static TreeSet<Integer> aList = new TreeSet<Integer>();
 	
 	public static void readMeta()
 	{
@@ -60,7 +61,6 @@ public class JustSmallNumber {
 	        readMeta();
 	        readData();
 	
-	        Collections.sort(aList);
 	        
 	        for(int i = 0; i<numLine ; i++)
 	        {
@@ -68,30 +68,15 @@ public class JustSmallNumber {
 		        
 		        Integer searchNum = Integer.parseInt(line);
 		        
-		        int index = Collections.binarySearch(aList, searchNum);
-		        
-		        if(index<-1)
-		        {
-//		        	System.out.println("1" + index);
-		        	System.out.println(aList.get(-index-2));
-		        }
-		        else if (index == -1 || index == 0)
-		        {
-//		        	System.out.println("2");
-		        	System.out.println(aList.get(0));
-		        }
-		        else
-		        {
-//		        	System.out.println("3");
-		        	System.out.println(aList.get(index-1));
-		        }
-	
+		        int index = aList.lower(searchNum);
+		        System.out.println(index);
+		        	
 	        }
 		}
 		catch (Exception e)
 		{
-			e.printStackTrace();
-			System.out.println(-7);
+//			e.printStackTrace();
+//			System.out.println("Exception " + e);
 		}
 	}
 }
