@@ -77,12 +77,14 @@ public class MinimumDisplacement
 			permute(sequence, 0);
 			
 			int displacement = 0;
+			boolean isDivisible = false;
 			
 			for(Integer numerator : permutations)
 			{
 				if(numerator % denominator == 0)
 				{
 					int tempDisplacement = findDisplacement(data[0],numerator.toString());
+					isDivisible = true;
 					
 					if(tempDisplacement == 0)
 					{
@@ -97,10 +99,14 @@ public class MinimumDisplacement
 					{
 						displacement = tempDisplacement;
 					}
+					
 				}
 			}
 			
-			System.out.println(displacement);
+			if(isDivisible)
+				System.out.println(displacement);
+			else
+				System.out.println(-1);
 	
 			long endTime = System.nanoTime();
 			System.out.println("Took "+(endTime - startTime) + " ns"); 
