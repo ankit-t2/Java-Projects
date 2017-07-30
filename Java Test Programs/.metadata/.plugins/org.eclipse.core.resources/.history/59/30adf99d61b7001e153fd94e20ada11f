@@ -1,0 +1,13 @@
+package test.java1;
+
+public interface Java1TestInterface {
+
+	int f();
+	class Tester
+	{
+		Tester()
+		{
+			System.out.println("Inside Tester constructor");
+		}
+	}
+}

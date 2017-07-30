@@ -1,0 +1,23 @@
+package test.java1;
+
+import test.java.TestInterface;
+
+public class TestClass1 {
+
+	protected class InnerTestClass1 implements TestInterface
+	{
+		int innerClassIntVariable = 47;
+		public int f()
+		{
+			return innerClassIntVariable;
+		}
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

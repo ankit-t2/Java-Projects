@@ -1,0 +1,24 @@
+package test.java2;
+
+import test.java.TestInterface;
+import test.java1.TestClass1;
+
+public class Java2TestClass1 extends TestClass1 {
+
+	void function(TestClass1 tc1)
+	{
+		tc1.testFunction();
+//		TestInterface iTC1 = tc1.getInnerTestClass1();
+//		return iTC1;
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Java2TestClass1 j2TC1 = new Java2TestClass1();
+		TestClass1 tc1= new TestClass1();
+//		System.out.println(j2TC1.function(tc1));
+	}
+
+}

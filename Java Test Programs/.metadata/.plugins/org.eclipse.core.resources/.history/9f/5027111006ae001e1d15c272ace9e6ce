@@ -1,0 +1,5 @@
+package test.java1;
+
+public interface Java1TestInterface {
+
+}

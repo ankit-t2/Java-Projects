@@ -1,0 +1,13 @@
+package test.java;
+
+public class TestClass1 {
+	int i = 10;
+	class InnerTestClass1
+	{
+		public void f()
+		{
+			System.out.println("In InnerTestClass1 " + i);
+		}
+	}
+	
+}

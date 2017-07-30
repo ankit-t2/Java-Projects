@@ -1,0 +1,42 @@
+package innerclasses;
+
+//: innerclasses/DotThis.java
+// Qualifying access to the outer-class object.
+
+public class DotThis {
+  void f() { System.out.println("DotThis.f()"); }
+  int i = 0;
+  public class Inner {
+    public DotThis outer() {
+      return DotThis.this;
+      // A plain "this" would be Inner's "this"
+    }
+    public void callOuterF()
+    {
+    	f();
+    }
+  }
+  
+  public Inner inner() { return new Inner(); }
+  
+  public static void main(String[] args) {
+    DotThis dt = new DotThis();
+    DotThis.Inner dti = dt.inner();
+    DotThis.Inner dti1 = dt.new Inner();
+    
+    dti.outer().f();
+    dti.callOuterF();
+    Sequence sequence = new Sequence(10);
+    for(int i = 0; i < 10; i++)
+      sequence.add(Integer.toString(i));
+  
+    Selector selector = sequence.selector();
+    
+    while(!selector.end()) {
+      System.out.print(selector.current() + " ");
+      selector.next();
+    }
+  }
+} /* Output:
+DotThis.f()
+*///:~

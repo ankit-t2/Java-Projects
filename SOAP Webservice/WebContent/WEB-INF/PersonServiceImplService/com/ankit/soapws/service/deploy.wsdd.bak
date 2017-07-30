@@ -1,0 +1,53 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from PersonServiceImplService WSDL service -->
+
+  <service name="PersonServiceImpl" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://service.soapws.ankit.com"/>
+      <parameter name="wsdlServiceElement" value="PersonServiceImplService"/>
+      <parameter name="schemaQualified" value="http://service.soapws.ankit.com,http://bean.soapws.ankit.com"/>
+      <parameter name="wsdlServicePort" value="PersonServiceImpl"/>
+      <parameter name="className" value="com.ankit.soapws.service.PersonServiceImplSoapBindingImpl"/>
+      <parameter name="wsdlPortType" value="PersonServiceImpl"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation name="addPerson" qname="operNS:addPerson" xmlns:operNS="http://service.soapws.ankit.com" returnQName="retNS:addPersonReturn" xmlns:retNS="http://service.soapws.ankit.com" returnType="rtns:boolean" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:p" xmlns:pns="http://service.soapws.ankit.com" type="tns:Person" xmlns:tns="http://bean.soapws.ankit.com"/>
+      </operation>
+      <operation name="deletePerson" qname="operNS:deletePerson" xmlns:operNS="http://service.soapws.ankit.com" returnQName="retNS:deletePersonReturn" xmlns:retNS="http://service.soapws.ankit.com" returnType="rtns:boolean" xmlns:rtns="http://www.w3.org/2001/XMLSchema" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://service.soapws.ankit.com" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="getPerson" qname="operNS:getPerson" xmlns:operNS="http://service.soapws.ankit.com" returnQName="retNS:getPersonReturn" xmlns:retNS="http://service.soapws.ankit.com" returnType="rtns:Person" xmlns:rtns="http://bean.soapws.ankit.com" soapAction="" >
+        <parameter qname="pns:id" xmlns:pns="http://service.soapws.ankit.com" type="tns:int" xmlns:tns="http://www.w3.org/2001/XMLSchema"/>
+      </operation>
+      <operation name="getAllPersons" qname="operNS:getAllPersons" xmlns:operNS="http://service.soapws.ankit.com" returnQName="retNS:getAllPersonsReturn" xmlns:retNS="http://service.soapws.ankit.com" returnType="rtns:Person" xmlns:rtns="http://bean.soapws.ankit.com" soapAction="" >
+      </operation>
+      <parameter name="allowedMethods" value="deletePerson getAllPersons addPerson getPerson"/>
+
+      <typeMapping
+        xmlns:ns="http://bean.soapws.ankit.com"
+        qname="ns:Address"
+        type="java:com.ankit.soapws.bean.Address"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://bean.soapws.ankit.com"
+        qname="ns:Person"
+        type="java:com.ankit.soapws.bean.Person"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+  </service>
+</deployment>

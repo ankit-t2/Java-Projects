@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/com/ankit/soapws/bean/Person.java=UTF-8
+encoding//src/com/ankit/soapws/service/PersonServiceImpl.java=UTF-8
+encoding//src/com/ankit/soapws/service/PersonServiceImplService.java=UTF-8
+encoding//src/com/ankit/soapws/service/PersonServiceImplServiceLocator.java=UTF-8
+encoding//src/com/ankit/soapws/service/PersonServiceImplSoapBindingStub.java=UTF-8

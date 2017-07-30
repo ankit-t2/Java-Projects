@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="triangle" class="com.ankit.interfacespring.Triangle" scope="prototype">
+ 		<property name="pointA" ref="firstPoint"/>
+		<property name="pointB" ref="secondPoint"/>
+		<property name="pointC" ref="thirdPoint"/>
+	</bean>
+
+	<bean id="triangle1" class="com.ankit.interfacespring.Triangle" scope="prototype">
+		<constructor-arg index="0" ref="firstPoint"/>
+		<constructor-arg index="1" ref="secondPoint"/>
+		<constructor-arg index="2" ref="thirdPoint"/>
+	</bean>
+
+	<bean id="square" class="com.ankit.interfacespring.Square" init-method="myInit" destroy-method="cleanUp">
+		<property name="pointA" ref="firstPoint"/>
+		<property name="pointB" ref="secondPoint"/>
+		<property name="pointC" ref="thirdPoint"/>
+		<property name="pointD" ref="fourthPoint"/>
+	</bean>
+
+	<bean id="firstPoint" class="com.ankit.interfacespring.Point" scope="prototype">
+		<property name="x" value="0"/>
+		<property name="y" value="0"/>
+	</bean>
+	
+	<bean id="secondPoint" class="com.ankit.interfacespring.Point" scope="prototype">
+		<property name="x" value="0"/>
+		<property name="y" value="30"/>
+	</bean>
+	
+	<bean id="thirdPoint" class="com.ankit.interfacespring.Point" scope="prototype">
+		<property name="x" value="30"/>
+		<property name="y" value="0"/>
+	</bean>
+	
+	<bean id="fourthPoint" class="com.ankit.interfacespring.Point" scope="prototype">
+		<property name="x" value="30"/>
+		<property name="y" value="30"/>
+	</bean>
+
+	<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"/>
+</beans>

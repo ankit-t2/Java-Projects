@@ -1,0 +1,3 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1254337043984
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1254337052190

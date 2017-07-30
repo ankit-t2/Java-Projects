@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.version,sysinfo,,,"1.6",1253963222424
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1253963222424
+java.version,sysinfo,,,"1.6.0_15",1253963222424
+java.vm.info,sysinfo,,,"mixed mode",1253963222424
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1253963222424
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1253963222424
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1253963222424
+java.vm.specification.version,sysinfo,,,"1.0",1253963222424
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1253963222424
+java.vm.version,sysinfo,,,"14.1-b02",1253963222424
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1253963223335
+started,bundle,org.eclipse.ecf.filetransfer,3.0.0.v20090604-1131,"org.eclipse.ecf.filetransfer",1253963223411
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.0.100.v20090525,"org.eclipse.equinox.p2.metadata.repository",1253963223422
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.garbagecollector",1253963223750
+started,bundle,org.eclipse.equinox.p2.exemplarysetup,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.exemplarysetup",1253963223751
+started,bundle,org.eclipse.equinox.frameworkadmin,1.0.100.v20090520-1905,"org.eclipse.equinox.frameworkadmin",1253963224246
+started,bundle,org.eclipse.equinox.frameworkadmin.equinox,1.0.100.v20090520-1905,"org.eclipse.equinox.frameworkadmin.equinox",1253963224248
+started,bundle,org.eclipse.equinox.simpleconfigurator.manipulator,1.0.100.v20090520-1905,"org.eclipse.equinox.simpleconfigurator.manipulator",1253963224419
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.0.v20090520-1905,"org.eclipse.equinox.p2.updatechecker",1253963224731
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.scheduler",1253963225387
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1253963226393
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1253963226400
+started,bundle,org.eclipse.wst.web,1.1.300.v200901261500,"org.eclipse.wst.web",1253963226406
+started,bundle,org.eclipse.emf.common,2.5.0.v200906151043,"org.eclipse.emf.common",1253963227447
+started,bundle,org.eclipse.team.cvs.ui,3.3.200.I20090521-1750,"org.eclipse.team.cvs.ui",1253963227529

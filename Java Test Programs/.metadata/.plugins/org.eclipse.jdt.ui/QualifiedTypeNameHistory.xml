@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="innerclasses.DotThis.Inner"/>
+<fullyQualifiedTypeName name="test.java.TestClass1.InnerTestClass1"/>
+<fullyQualifiedTypeName name="test.java.TestClass2"/>
+<fullyQualifiedTypeName name="test.java2.Java2TestClass1"/>
+<fullyQualifiedTypeName name="test.java.TestInterface"/>
+<fullyQualifiedTypeName name="test.java1.TestClass1.InnerTestClass1"/>
+<fullyQualifiedTypeName name="test.java1.TestClass2"/>
+<fullyQualifiedTypeName name="test.java1.TestClass2.InnerClass"/>
+<fullyQualifiedTypeName name="test.java1.Java1TestInterface"/>
+<fullyQualifiedTypeName name="InnerTestClass1"/>
+<fullyQualifiedTypeName name="test.java1.TestClass1"/>
+</qualifiedTypeNameHistroy>

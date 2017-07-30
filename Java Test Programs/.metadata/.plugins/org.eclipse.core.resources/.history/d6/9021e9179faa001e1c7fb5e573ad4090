@@ -1,0 +1,29 @@
+package test.java;
+
+import static net.mindview.util.Print.*;
+
+public class RandomClass {
+	
+	int i;
+	
+	
+	public void anotherFunction(RandomClass rc)
+	{
+		rc.i=5;
+		System.out.println(rc.i);
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char c = '';
+		int i =c;
+		String str = "ankit";
+		String str1 = c+str+c;
+		System.out.println(i);
+		
+		
+	}
+
+}

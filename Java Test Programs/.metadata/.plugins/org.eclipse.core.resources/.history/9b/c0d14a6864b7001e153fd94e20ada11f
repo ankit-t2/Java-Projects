@@ -1,0 +1,18 @@
+package test.java1;
+
+public interface Java1TestInterface {
+
+	void f(Java1TestInterface j1ti);
+	class Tester
+	{
+		Tester()
+		{
+			System.out.println("Inside Tester constructor");
+		}
+		
+		static void anotherFn(Java1TestInterface jti)
+		{
+			System.out.println(jti.f(jti));
+		}
+	}
+}

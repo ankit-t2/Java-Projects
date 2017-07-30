@@ -1,0 +1,29 @@
+package test.java;
+
+import java.util.Random;
+
+public class RandomClass {
+	
+	int i;
+	
+	
+	public void anotherFunction(RandomClass rc)
+	{
+		rc.i=5;
+		System.out.println(rc.i);
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		RandomClass rc1 = new RandomClass();
+		RandomClass rc2 = new RandomClass();
+		rc2.i=10;
+		System.out.println(rc2.i);
+		rc1.anotherFunction(rc2);
+		System.out.println(rc2.i);
+		
+	}
+
+}

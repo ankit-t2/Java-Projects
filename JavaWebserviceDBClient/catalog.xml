@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/JavaWebserviceDB/GetAccountInfo?wsdl" uri="xml-resources/web-service-references/GetAccountInfo/wsdl/localhost_8080/JavaWebserviceDB/GetAccountInfo.wsdl"/>
+    <system systemId="http://localhost:8080/JavaWebserviceDB/GetAccountInfo?xsd=1" uri="xml-resources/web-service-references/GetAccountInfo/wsdl/localhost_8080/JavaWebserviceDB/GetAccountInfo.xsd_1.xsd"/>
+    <system systemId="http://www.dataaccess.com/webservicesserver/numberconversion.wso?WSDL" uri="xml-resources/web-service-references/numberconversion/wsdl/www.dataaccess.com/webservicesserver/numberconversion.wso.wsdl"/>
+</catalog>

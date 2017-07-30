@@ -1,0 +1,20 @@
+package test.java;
+
+public class TestClass2 extends TestClass1 {
+
+	public TestClass3 tc3 = new TestClass3();
+
+	public TestClass2()
+	{
+		System.out.println("In TestClass2");
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TestClass2 tc2 = new TestClass2();
+	}
+
+}

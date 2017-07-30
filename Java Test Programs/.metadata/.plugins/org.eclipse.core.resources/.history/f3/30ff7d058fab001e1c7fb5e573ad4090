@@ -1,0 +1,9 @@
+package test.java;
+
+public class TestClass3 {
+
+	public TestClass3()
+	{
+		System.out.println("In TestClass3");
+	}
+}

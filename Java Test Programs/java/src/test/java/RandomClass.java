@@ -1,0 +1,31 @@
+package test.java;
+
+import static net.mindview.util.Print.*;
+
+public class RandomClass {
+	
+	int i;
+	public RandomClass()
+	{
+		print("In Random Class");
+	}
+	
+	public void anotherFunction(int... i)
+	{
+		print(i.length);
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		print(System.nanoTime());
+		RandomClass rc = new RandomClass();
+		int[] j = {7,8};
+		rc.anotherFunction(1,2,3,4);
+		rc.anotherFunction(2,3);
+		rc.anotherFunction(3,9);
+		print(System.nanoTime());
+	}
+
+}
