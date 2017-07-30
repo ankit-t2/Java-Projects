@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.version,sysinfo,,,"1.6.0_13",1259849404640
+java.vm.info,sysinfo,,,"mixed mode",1259849404640
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1259849404640
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1259849404640
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1259849404640
+java.vm.specification.version,sysinfo,,,"1.0",1259849404640
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1259849404640
+java.vm.version,sysinfo,,,"11.3-b02",1259849404640
+activated,view,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views.ContentOutline",1259849405374
+closed,view,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.internal.introview",1259849405374
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1259849408390
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.window.maximizePart",1259849408421
+started,bundle,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit",1259849408468
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1259849410046
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1259849433983
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1259849454358
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1259849454358
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1259849454483
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1259849460296
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1259849462624
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1259849468030
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.wordPrevious",1259849470796
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.wordPrevious",1259849471155
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1259849471561
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1259849472452

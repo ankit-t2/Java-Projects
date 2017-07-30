@@ -1,0 +1,71 @@
+!SESSION Nov 18, 2009 20:14:51.742 ---------------------------------------------
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/com.ibm.etech.cxdtk.core_0.8.60828.1338.jar [132] was not resolved
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle com.ibm.etech.eclipse.util
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.wst.common.uriresolver
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.wst.xml.core
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.emf.common
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/com.ibm.etech.cxdtk.ui_0.8.60828.1338.jar [134] was not resolved
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle com.ibm.etech.cxdtk.core
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.wst.validation
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.wst.xml.core
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.wst.xml.ui
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle com.ibm.etech.eclipse.util
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.wst.validation.ui
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.jdt.doc.isv_3.0.0/ [209] was not resolved
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.jdt.doc.user_3.0.0/ [211] was not resolved
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.jdt.junit.runtime_3.0.0/ [213] was not resolved
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.junit
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.jdt.junit_3.0.0/ [216] was not resolved
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.jdt.junit.runtime
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.jdt.source_3.0.0/ [220] was not resolved
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.pde.junit.runtime_3.0.0/ [243] was not resolved
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.jdt.junit.runtime
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.junit
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.pde.source_3.0.0/ [247] was not resolved
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.pde.ui_3.0.0/ [249] was not resolved
+!SUBENTRY 1 org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Missing required bundle org.eclipse.jdt.junit
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.platform.source.win32.win32.x86_3.0.0/ [257] was not resolved
+!ENTRY org.eclipse.osgi Nov 18, 2009 20:14:51.742
+!MESSAGE Bundle reference:file:d:/Software/eclipse-SDK-3.0M8/eclipse/plugins/org.eclipse.platform.source_3.0.0/ [259] was not resolved
+!SESSION 2009-12-03 19:39:54.812 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_13
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\Ankit\Java\My_Code
+
+!ENTRY org.eclipse.core.resources 1 0 2009-12-03 19:39:56.218
+!MESSAGE Conversion of persistent properties completed successfully.
+
+!ENTRY org.eclipse.core.resources 1 0 2009-12-03 19:40:33.952
+!MESSAGE Conversion of local history completed successfully.

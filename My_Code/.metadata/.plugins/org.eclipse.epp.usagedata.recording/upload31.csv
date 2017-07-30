@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.info,sysinfo,,,"mixed mode",1260432424244
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1260432424244
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1260432424244
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1260432424244
+java.vm.specification.version,sysinfo,,,"1.0",1260432424244
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1260432424244
+java.vm.version,sysinfo,,,"11.3-b02",1260432424244
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260432428619
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260432428619
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260432428791
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260434323579
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1260434335188
+started,bundle,org.eclipse.mylyn.java.ui,3.2.2.v20090912-0400-e3x,"org.eclipse.mylyn.java.ui",1260434340079
+started,bundle,org.eclipse.pde.api.tools,1.0.101.v20090714,"org.eclipse.pde.api.tools",1260434340157
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.101.v20090820,"org.eclipse.pde.api.tools.ui",1260434340157
+started,bundle,org.eclipse.jdt.junit,3.5.1.r351_v20090708-0800,"org.eclipse.jdt.junit",1260434340907
+started,bundle,org.eclipse.ui.views.log,1.0.100.v20090731,"org.eclipse.ui.views.log",1260434340938
+started,bundle,org.eclipse.pde.ui,3.5.0.v20090821,"org.eclipse.pde.ui",1260434340970
+started,bundle,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui",1260434345548
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1260434346173
+started,bundle,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui",1260434346188
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1260434346345
+started,bundle,org.eclipse.jdt.debug.ui,3.4.1.v20090811_r351,"org.eclipse.jdt.debug.ui",1260434346548
+started,bundle,org.eclipse.wst.common.emf,1.1.301.v200908181930,"org.eclipse.wst.common.emf",1260434347266
+started,bundle,org.eclipse.jst.j2ee.core,1.1.301.v200908181930,"org.eclipse.jst.j2ee.core",1260434347266

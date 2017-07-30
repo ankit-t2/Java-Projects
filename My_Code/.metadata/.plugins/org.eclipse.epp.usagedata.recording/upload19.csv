@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.version,sysinfo,,,"1.6",1260361628444
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1260361628444
+java.version,sysinfo,,,"1.6.0_13",1260361628444
+java.vm.info,sysinfo,,,"mixed mode",1260361628444
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1260361628444
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1260361628444
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1260361628444
+java.vm.specification.version,sysinfo,,,"1.0",1260361628444
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1260361628444
+java.vm.version,sysinfo,,,"11.3-b02",1260361628444
+started,bundle,org.eclipse.epp.usagedata.ui,1.1.0.R200906100410,"org.eclipse.epp.usagedata.ui",1260361629507
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260361629772
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260361633772
+opened,view,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.ui.views.ProblemView",1260361641397
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1260361642022
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1260361643382
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260361644600
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260363645394
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1260363661222
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1260363668925
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260363676816
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1260363678941
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineStart",1260363709191
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.wordPrevious",1260363713925
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineEnd",1260363714925

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.vm.info,sysinfo,,,"mixed mode",1260526816846
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1260526816846
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1260526816846
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1260526816846
+java.vm.specification.version,sysinfo,,,"1.0",1260526816846
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1260526816846
+java.vm.version,sysinfo,,,"11.3-b02",1260526816846
+started,bundle,org.eclipse.debug.ui,3.5.1.v20090811_r351,"org.eclipse.debug.ui",1260526850314
+started,bundle,org.eclipse.wst.server.core,1.1.102.v20090825,"org.eclipse.wst.server.core",1260526850564
+started,bundle,org.eclipse.wst.server.ui,1.1.103.v20090909,"org.eclipse.wst.server.ui",1260526850579
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1260526850751
+started,bundle,org.eclipse.jdt.debug.ui,3.4.1.v20090811_r351,"org.eclipse.jdt.debug.ui",1260526850954
+opened,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1260526852392
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1260526852470
+activated,editor,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.CompilationUnitEditor",1260526857126
+started,bundle,org.eclipse.wst.common.emf,1.1.301.v200908181930,"org.eclipse.wst.common.emf",1260526905126
+started,bundle,org.eclipse.jst.j2ee.core,1.1.301.v200908181930,"org.eclipse.jst.j2ee.core",1260526905126
+started,bundle,org.eclipse.jem,2.0.300.v200901272200,"org.eclipse.jem",1260526905188
+started,bundle,org.eclipse.emf.ecore.xmi,2.5.0.v200906151043,"org.eclipse.emf.ecore.xmi",1260526905219
+started,bundle,org.eclipse.jst.jee,1.0.201.v200909030330,"org.eclipse.jst.jee",1260526905407
+started,bundle,org.eclipse.jpt.core,2.2.1.v200908270220,"org.eclipse.jpt.core",1260526905548
+started,bundle,org.eclipse.jpt.eclipselink.core,1.2.0.v200905310000,"org.eclipse.jpt.eclipselink.core",1260526905594
+started,bundle,org.eclipse.wst.sse.core,1.1.401.v200909172215,"org.eclipse.wst.sse.core",1260526905704
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.1.301.v200908101600,"org.eclipse.wst.common.frameworks.ui",1260526905782
+started,bundle,org.eclipse.wst.xml.core,1.1.401.v200908242115,"org.eclipse.wst.xml.core",1260526905829
